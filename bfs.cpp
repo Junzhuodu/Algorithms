@@ -37,7 +37,7 @@ public:
 
 // Template function for print 2DVector of any type
 template<typename T>
-void print2DVector(T Vec) {
+void print2DVector(T& Vec) {
     if (Vec.size() == 0 || Vec[0].size() == 0) {
         return;
     }
@@ -106,7 +106,11 @@ void search(Map &map, Planner &planner) {
         }
     }  // Found the goal
     
+    // Print the 2D map
+    cout << "Our map:" << endl;
+    print2DVector(map.grid);
     // Print the 2D expansion
+    cout << "The expansion for bfs:" << endl;
     print2DVector(expand);
     
     // Find the path with robot orientation
@@ -125,6 +129,7 @@ void search(Map &map, Planner &planner) {
         y = y2;
     }
     // Print the path with arrows
+    cout << "The shortest path:" << endl;
     print2DVector(policy);
 }
 
