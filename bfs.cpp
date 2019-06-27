@@ -51,7 +51,7 @@ void print2DVector(T& Vec) {
 
 // Bfs search algorithm
 void search(Map &map, Planner &planner) {
-    // Create a visited array to check if the point is visited
+    // Create a visited array to check if the point is visited (Closed list)
     vector<vector<bool>> visited(map.Height, vector<bool>(map.Width, false));
     
     // Create a expand array to store the counts for expansion
@@ -65,6 +65,7 @@ void search(Map &map, Planner &planner) {
     auto cmp = [](point& a, point& b) {
         return a.first > b.first;
     };
+    // Open List
     priority_queue<point, vector<point>, decltype(cmp)> minheap(cmp);
     
     int x = planner.start[0];
