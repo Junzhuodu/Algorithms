@@ -10,3 +10,5 @@
 ## 4. fitting a plane with linear algebra
 ![img](./Images/fitting_plane.png)
 ![img](./Images/fiting_plane_result.png)
+References: 
+[(https://math.stackexchange.com/questions/99299/best-fitting-plane-given-a-set-of-points)](https://math.stackexchange.com/questions/99299/best-fitting-plane-given-a-set-of-points)
