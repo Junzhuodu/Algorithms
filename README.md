@@ -9,4 +9,4 @@
 ![img](./Images/dijkstra.png)
 ## 4. fitting a plane with linear algebra
 ![img](./Images/fitting_plane.png)
-![img](./Images/fitting_plane_result.png)
+![img](./Images/fiting_plane_result.png)
