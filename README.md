@@ -7,7 +7,7 @@
 ## 3. Dijkstra for shortest path in graph
 ![img](./Images/graph.jpg)
 ![img](./Images/dijkstra.png)
-## 4. fitting a plane with linear algebra
+## 4. fitting a plane with linear algebra(least squares vectors)
 ![img](./Images/fitting_plane.png)
 ![img](./Images/fiting_plane_result.png)
 References: 
